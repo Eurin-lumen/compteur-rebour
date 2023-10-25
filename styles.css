@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.horloge-container {
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+#temps-restant {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Styles for the "La rentrée est maintenant !" message */
+#temps-restant.la-rentree {
+    font-size: 20px;
+    color: green;
+}
+
+/* Additional styling for days, hours, minutes, and seconds */
+#temps-restant span {
+    font-weight: bold;
+    color: #ff6600;
+}
